@@ -6,6 +6,7 @@ from resources.imageclassifier import ImageClassifier
 app = Flask(__name__)
 api = Api(app)
 
+
 api.add_resource(Hello, '/hello')
 api.add_resource(ImageClassifier, '/imageclassifier')
 
