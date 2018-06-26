@@ -103,4 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-/common
+/utils/dataset
+/utils/inception
+/utils/logs
